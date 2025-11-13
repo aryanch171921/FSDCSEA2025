@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Gallery from './component/Gallery'
 import ICard from './component/ICard'
-
+import ImageManipulation from './component/ImageManipulation'
 function App() {
 //   const student=
 //   [{
@@ -42,7 +42,8 @@ function App() {
       <ICard data={ele} />
     ))}
      */}
-     
+    <ImageManipulation /> 
+    
     </div>
   )
 }
